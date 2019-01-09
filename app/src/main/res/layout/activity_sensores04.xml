@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sensores04">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SENSOR DE CAMPO MAGNÉTICO"
+        android:textSize="20dp"
+        android:textColor="#ababab"
+        android:textStyle="bold"
+        />
+    <View android:background="#ababab"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMPO B_X"
+        android:textColor="#d9a1e5"
+        />
+    <TextView
+        android:id="@+id/campo_x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMPO X"
+        android:textColor="#070008"
+        />
+    <View android:background="#ababab"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMPO B_Y"
+        android:textColor="#d9a1e5"
+        />
+    <TextView
+        android:id="@+id/campo_y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMPO Y"
+        android:textColor="#070008"
+        />
+    <View android:background="#ababab"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMPO B_Z"
+        android:textColor="#d9a1e5"
+        />
+    <TextView
+        android:id="@+id/campo_z"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMPO Z"
+        android:textColor="#070008"
+        />
+    <View android:background="#ababab"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B MODULO"
+        android:textColor="#d9a1e5"
+        />
+    <TextView
+        android:id="@+id/campo_mag_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMPO MAGNETICO TOTAL"
+        android:textColor="#070008"
+        />
+    <View android:background="#ababab"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMPO MAXIMO"
+        android:textColor="#d9a1e5"
+        />
+    <TextView
+        android:id="@+id/campo_terrestre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMPO TERRESTRE"
+        android:textColor="#070008"
+        />
+    <View android:background="#ababab"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMPO TIERRA MIN Y MAX"
+        android:textColor="#d9a1e5"
+        />
+    <TextView
+        android:id="@+id/campo_tierra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMPO_TIERRA"
+        android:textColor="#070008"
+        />
+    <View android:background="#ababab"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTADOR"
+        android:textColor="#d9a1e5"
+        />
+    <TextView
+        android:id="@+id/contador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:text="CONTADOR"
+        android:textColor="#070008"
+        />
+    <View android:background="#ababab"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        />
+
+
+</LinearLayout>
